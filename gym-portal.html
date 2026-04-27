@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IRON PORTAL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;500;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- PORTAL WRAPPER -->
+  <div class="portal" id="portal">
+
+    <!-- ===== HOME SCREEN ===== -->
+    <section class="home" id="home">
+      <header class="site-header">
+        <div class="logo">
+          <span class="logo-icon">⬡</span>
+          <span class="logo-text">IRON<strong>PORTAL</strong></span>
+        </div>
+        <p class="tagline">TRAIN HARD. EAT RIGHT. KNOW THE LEGENDS.</p>
+      </header>
+
+      <div class="main-grid">
+
+        <div class="main-card card-goals" onclick="showPanel('goals')">
+          <div class="card-accent"></div>
+          <div class="card-number">01</div>
+          <div class="card-icon">🎯</div>
+          <h2>MY GOALS</h2>
+          <p>Define your training frequency, primary objective, and target physique. Get a custom program.</p>
+          <div class="card-arrow">→</div>
+        </div>
+
+        <div class="main-card card-cals" onclick="showPanel('calories')">
+          <div class="card-accent"></div>
+          <div class="card-number">02</div>
+          <div class="card-icon">⚡</div>
+          <h2>CALORIES &amp; MACROS</h2>
+          <p>Per-100g food lookup, daily calorie calculator, and AI-powered meal plan ideas.</p>
+          <div class="card-arrow">→</div>
+        </div>
+
+        <div class="main-card card-history" onclick="showPanel('history')">
+          <div class="card-accent"></div>
+          <div class="card-number">03</div>
+          <div class="card-icon">🏆</div>
+          <h2>OLYMPIA LEGENDS</h2>
+          <p>Every Mr. Olympia champion from 1965 to today — physiques, rivals, full stories.</p>
+          <div class="card-arrow">→</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== GOALS PANEL ===== -->
+    <section class="panel" id="panel-goals">
+      <button class="back-btn" onclick="showHome()">← BACK</button>
+      <div class="panel-header">
+        <span class="panel-num">01</span>
+        <h1 class="panel-title">MY GOALS</h1>
+      </div>
+      <p class="panel-sub">Describe your training goals — days per week, main objective (powerlifting, physique, endurance), current level, and anything specific you want to achieve.</p>
+      <textarea class="ai-prompt" id="goalsInput" placeholder="e.g. I want to train 4x a week, focus on powerlifting. I'm 80kg, intermediate, want to increase my deadlift and build a stronger back..."></textarea>
+      <button class="action-btn" onclick="sendGoals()">GENERATE MY PLAN</button>
+      <div class="loading" id="goalsLoading">
+        <span class="loading-bar"></span>
+        <span>Generating your program...</span>
+      </div>
+      <div class="ai-result" id="goalsResult"></div>
+    </section>
+
+    <!-- ===== CALORIES PANEL ===== -->
+    <section class="panel" id="panel-calories">
+      <button class="back-btn" onclick="showHome()">← BACK</button>
+      <div class="panel-header">
+        <span class="panel-num">02</span>
+        <h1 class="panel-title">CALORIES &amp; MACROS</h1>
+      </div>
+
+      <div class="tabs">
+        <button class="tab active" onclick="switchTab('per100', this)">PER 100G</button>
+        <button class="tab" onclick="switchTab('daily', this)">DAILY NEEDS</button>
+        <button class="tab" onclick="switchTab('recipes', this)">MEAL IDEAS</button>
+      </div>
+
+      <!-- TAB: per 100g -->
+      <div class="tab-panel active" id="tab-per100">
+        <p class="tab-desc">Enter any food to instantly get its full macro breakdown per 100g.</p>
+        <div class="inline-form">
+          <input type="text" id="foodItem" placeholder="chicken breast, oats, salmon, almonds..." />
+          <button class="action-btn sm" onclick="lookupFood()">LOOK UP</button>
+        </div>
+        <div class="loading" id="foodLoading">
+          <span class="loading-bar"></span>
+          <span>Looking up macros...</span>
+        </div>
+        <div class="ai-result" id="foodResult"></div>
+      </div>
+
+      <!-- TAB: daily needs -->
+      <div class="tab-panel" id="tab-daily">
+        <div class="form-grid">
+          <div class="form-group">
+            <label>AGE</label>
+            <input type="number" id="age" placeholder="25" />
+          </div>
+          <div class="form-group">
+            <label>GENDER</label>
+            <select id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>HEIGHT (cm)</label>
+            <input type="number" id="height" placeholder="175" />
+          </div>
+          <div class="form-group">
+            <label>WEIGHT (kg)</label>
+            <input type="number" id="weight" placeholder="80" />
+          </div>
+          <div class="form-group">
+            <label>ACTIVITY</label>
+            <select id="activity">
+              <option value="1.2">Sedentary</option>
+              <option value="1.375">Light (1–3x/wk)</option>
+              <option value="1.55" selected>Moderate (3–5x/wk)</option>
+              <option value="1.725">Active (6–7x/wk)</option>
+              <option value="1.9">Very active (2x/day)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>GOAL</label>
+            <select id="goal">
+              <option value="cut">Cut — lose fat</option>
+              <option value="maintain">Maintain</option>
+              <option value="bulk">Bulk — gain muscle</option>
+            </select>
+          </div>
+        </div>
+        <button class="action-btn" onclick="calcDaily()">CALCULATE</button>
+        <div class="macro-grid" id="macroGrid" style="display:none"></div>
+      </div>
+
+      <!-- TAB: meal ideas -->
+      <div class="tab-panel" id="tab-recipes">
+        <p class="tab-desc">Tell me your calorie target, dietary restrictions, and preferences — I'll build a meal plan.</p>
+        <textarea class="ai-prompt" id="recipeInput" placeholder="e.g. 3000 calories, high protein, no dairy, easy meal prep, cutting phase..."></textarea>
+        <button class="action-btn" onclick="getRecipes()">GET MEAL IDEAS</button>
+        <div class="loading" id="recipeLoading">
+          <span class="loading-bar"></span>
+          <span>Building your meal plan...</span>
+        </div>
+        <div class="ai-result" id="recipeResult"></div>
+      </div>
+    </section>
+
+    <!-- ===== HISTORY PANEL ===== -->
+    <section class="panel" id="panel-history">
+      <button class="back-btn" onclick="showHome()">← BACK</button>
+      <div class="panel-header">
+        <span class="panel-num">03</span>
+        <h1 class="panel-title">OLYMPIA LEGENDS</h1>
+      </div>
+      <p class="panel-sub">Every Mr. Olympia champion from 1965 to today. Click a legend to expand their full story and winning photos.</p>
+      <div class="legends-grid" id="legendsGrid"></div>
+    </section>
+
+  </div><!-- /portal -->
+
+  <!-- ===== LIGHTBOX ===== -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <div class="lightbox-inner" onclick="event.stopPropagation()">
+      <button class="lb-close" onclick="closeLightbox()">✕</button>
+      <h2 class="lb-name" id="lbName"></h2>
+      <p class="lb-sub" id="lbSub"></p>
+      <div class="lb-photos" id="lbPhotos"></div>
+      <div class="lb-bio" id="lbBio"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
