@@ -1,9 +1,9 @@
 // ============================================
 // IRON PORTAL — script.js
 // ============================================
+import { bodybuilders } from "./bodybuilders.js";
 
 // ---- API KEY ----
-// Replace with your Anthropic API key from https://console.anthropic.com
 const API_KEY = "YOUR_API_KEY_HERE";
 
 // ============================================
@@ -193,7 +193,6 @@ function openLightbox(index) {
   document.getElementById('lbName').textContent = bb.name;
   document.getElementById('lbSub').textContent = `${bb.years}  ·  ${bb.wins}  ·  ${bb.era}`;
 
-  // Photos
   const photosEl = document.getElementById('lbPhotos');
   photosEl.innerHTML = '';
   bb.photos.forEach(url => {
@@ -207,7 +206,6 @@ function openLightbox(index) {
     photosEl.appendChild(img);
   });
 
-  // Bio
   document.getElementById('lbBio').innerHTML = `
     <div class="lb-bio-section">
       <div class="lb-bio-label">PHYSIQUE</div>
@@ -234,10 +232,22 @@ function closeLightbox() {
   document.body.style.overflow = '';
 }
 
-// Close lightbox on Escape key
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeLightbox();
 });
+
+// ============================================
+// EXPOSE TO GLOBAL SCOPE (required for onclick attributes)
+// ============================================
+window.showHome       = showHome;
+window.showPanel      = showPanel;
+window.switchTab      = switchTab;
+window.sendGoals      = sendGoals;
+window.lookupFood     = lookupFood;
+window.calcDaily      = calcDaily;
+window.getRecipes     = getRecipes;
+window.openLightbox   = openLightbox;
+window.closeLightbox  = closeLightbox;
 
 // ============================================
 // INIT
