@@ -1,265 +1,263 @@
-[
+export const bodybuilders = [
   {
-    "name": "Larry Scott",
-    "years": "1965 – 1966",
-    "wins": "2× Mr. Olympia",
-    "era": "The Golden Era Begins",
-    "rivals": [
+    name: "Larry Scott",
+    years: "1965 – 1966",
+    wins: "2× Mr. Olympia",
+    era: "The Golden Era Begins",
+    rivals: [
       "Dave Draper",
       "Harold Poole",
       "Chet Yorton"
     ],
-    "physique": "Classic V-taper, legendary arm development. Known for massive, peaked biceps sculpted through the 'Scott Curl' he popularized.",
-    "bio": "Larry Scott became the first-ever Mr. Olympia winner on September 18, 1965 at the Brooklyn Academy of Music. Nicknamed 'The Legend' and 'The Golden Boy', he was the sport's first true superstar. Despite retiring at just 28 after back-to-back titles, his impact on bodybuilding was permanent. His arms were his calling card — massive, peaked biceps that inspired the preacher curl to be renamed the 'Scott Curl' in his honor. He competed at around 200 lbs, which looks lean compared to today's mass monsters, but his proportions were considered perfection.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Larry_Scott_1965.jpg/220px-Larry_Scott_1965.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Larry_Scott_1965.jpg/220px-Larry_Scott_1965.jpg"
+    physique: "Classic V-taper, legendary arm development. Known for massive, peaked biceps sculpted through the 'Scott Curl' he popularized.",
+    bio: "Larry Scott became the first-ever Mr. Olympia winner on September 18, 1965 at the Brooklyn Academy of Music. Nicknamed 'The Legend' and 'The Golden Boy', he was the sport's first true superstar. Despite retiring at just 28 after back-to-back titles, his impact on bodybuilding was permanent. His arms were his calling card — massive, peaked biceps that inspired the preacher curl to be renamed the 'Scott Curl' in his honor. He competed at around 200 lbs, which looks lean compared to today's mass monsters, but his proportions were considered perfection.",
+    thumb: "https://cdn.shopify.com/s/files/1/0247/9017/files/larry_scott_1_grande.jpg?3958",
+    photos: [
+      "https://generationiron.com/wp-content/uploads/2022/01/Larry-Scott-1024x543.jpg"
     ]
   },
   {
-    "name": "Sergio Oliva",
-    "years": "1967 – 1969",
-    "wins": "3× Mr. Olympia",
-    "era": "The Myth",
-    "rivals": [
+    name: "Sergio Oliva",
+    years: "1967 – 1969",
+    wins: "3× Mr. Olympia",
+    era: "The Myth",
+    rivals: [
       "Arnold Schwarzenegger",
       "Larry Scott",
       "Harold Poole"
     ],
-    "physique": "Unreal width-to-waist ratio. 'The Myth' had a V-taper so extreme that many considered him physically impossible. Impossibly wide lats with a tiny waist.",
-    "bio": "Sergio Oliva — 'The Myth' — is the only man to defeat Arnold Schwarzenegger in an official Mr. Olympia competition. A Cuban defector who fled to the United States in 1962, Oliva won three consecutive Olympia titles including 1968 uncontested. His physique was so dramatic, so wide and tapered, that it seemed physically impossible. Arnold himself admitted Oliva's physique was the most shocking he'd ever seen. Their 1972 showdown is considered one of the greatest rivalries in bodybuilding history, with Arnold winning in a decision most insiders still debate.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sergio_Oliva_1972.jpg/220px-Sergio_Oliva_1972.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sergio_Oliva_1972.jpg/220px-Sergio_Oliva_1972.jpg"
+    physique: "Unreal width-to-waist ratio. 'The Myth' had a V-taper so extreme that many considered him physically impossible. Impossibly wide lats with a tiny waist.",
+    bio: "Sergio Oliva — 'The Myth' — is the only man to defeat Arnold Schwarzenegger in an official Mr. Olympia competition. A Cuban defector who fled to the United States in 1962, Oliva won three consecutive Olympia titles including 1968 uncontested. His physique was so dramatic, so wide and tapered, that it seemed physically impossible. Arnold himself admitted Oliva's physique was the most shocking he'd ever seen. Their 1972 showdown is considered one of the greatest rivalries in bodybuilding history, with Arnold winning in a decision most insiders still debate.",
+    thumb: "https://m.media-amazon.com/images/M/MV5BNjNlNTJiMGQtODA4ZC00YzA0LWFjMDEtNjc4OWM2MzgyY2FmXkEyXkFqcGc@._V1_QL75_UX148_.jpg",
+    photos: [
+      "https://thebarbell.com/wp-content/uploads/2024/01/sergio-oliva-1068x888.jpg"
     ]
   },
   {
-    "name": "Arnold Schwarzenegger",
-    "years": "1970–1975, 1980",
-    "wins": "7× Mr. Olympia",
-    "era": "The Golden Era Icon",
-    "rivals": [
+    name: "Arnold Schwarzenegger",
+    years: "1970–1975, 1980",
+    wins: "7× Mr. Olympia",
+    era: "The Golden Era Icon",
+    rivals: [
       "Sergio Oliva",
       "Lou Ferrigno",
       "Frank Zane",
       "Franco Columbu"
     ],
-    "physique": "The definition of classical bodybuilding. 57\" chest, perfect V-taper, legendary front double bicep. At 6'2\" and 235 lbs, Arnold combined size with aesthetics that defined the sport.",
-    "bio": "Arnold Schwarzenegger is the most famous bodybuilder who ever lived — and arguably the most famous athlete of any kind. He won six consecutive Mr. Olympia titles from 1970 to 1975, then made a controversial comeback in 1980 to win a seventh. His physique was the perfect blend of mass and aesthetics, a template the sport still chases today. Beyond his physique, Arnold's showmanship, charisma, and posing routines elevated bodybuilding into an art form. The film Pumping Iron (1977) made him a global superstar. His rivalry with Sergio Oliva was legendary. His rivalry with Lou Ferrigno, documented in Pumping Iron, brought the sport to mainstream audiences worldwide.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Arnold_Schwarzenegger_1974.jpg/220px-Arnold_Schwarzenegger_1974.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Arnold_Schwarzenegger_1974.jpg/220px-Arnold_Schwarzenegger_1974.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Arnold_Schwarzenegger_1970.jpg/200px-Arnold_Schwarzenegger_1970.jpg"
+    physique: "The definition of classical bodybuilding. 57\" chest, perfect V-taper, legendary front double bicep. At 6'2\" and 235 lbs, Arnold combined size with aesthetics that defined the sport.",
+    bio: "Arnold Schwarzenegger is the most famous bodybuilder who ever lived — and arguably the most famous athlete of any kind. He won six consecutive Mr. Olympia titles from 1970 to 1975, then made a controversial comeback in 1980 to win a seventh. His physique was the perfect blend of mass and aesthetics, a template the sport still chases today. Beyond his physique, Arnold's showmanship, charisma, and posing routines elevated bodybuilding into an art form. The film Pumping Iron (1977) made him a global superstar. His rivalry with Sergio Oliva was legendary. His rivalry with Lou Ferrigno, documented in Pumping Iron, brought the sport to mainstream audiences worldwide.",
+    thumb: "https://www.schwarzenegger.com/assets/images/img-38.jpg",
+    photos: [
+      "https://m.media-amazon.com/images/I/71grKIDwk-L._SY466_.jpg"
     ]
   },
   {
-    "name": "Frank Zane",
-    "years": "1977 – 1979",
-    "wins": "3× Mr. Olympia",
-    "era": "Aesthetic Perfection",
-    "rivals": [
+    name: "Frank Zane",
+    years: "1977 – 1979",
+    wins: "3× Mr. Olympia",
+    era: "Aesthetic Perfection",
+    rivals: [
       "Arnold Schwarzenegger",
       "Boyer Coe",
       "Mike Mentzer"
     ],
-    "physique": "The most aesthetic physique in Olympia history. Razor conditioning, a wasp waist, and perfect proportions — at only 185 lbs, he beat competitors 40+ lbs heavier.",
-    "bio": "Frank Zane — 'The Chemist' — proved that aesthetics and proportion could defeat raw mass. He won three consecutive Olympia titles at a stage weight of around 185 lbs, making him significantly smaller than most of his competition. Zane had a PhD-level understanding of his own body and an obsession with symmetry, conditioning, and the visual lines of his physique. He is one of only three men to have defeated Arnold Schwarzenegger in competition (others: Sergio Oliva and Robby Robinson in a guest pose). Many bodybuilding purists consider his physique the most beautiful ever to grace the Olympia stage.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Frank_Zane_1977.jpg/220px-Frank_Zane_1977.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Frank_Zane_1977.jpg/220px-Frank_Zane_1977.jpg"
+    physique: "The most aesthetic physique in Olympia history. Razor conditioning, a wasp waist, and perfect proportions — at only 185 lbs, he beat competitors 40+ lbs heavier.",
+    bio: "Frank Zane — 'The Chemist' — proved that aesthetics and proportion could defeat raw mass. He won three consecutive Olympia titles at a stage weight of around 185 lbs, making him significantly smaller than most of his competition. Zane had a PhD-level understanding of his own body and an obsession with symmetry, conditioning, and the visual lines of his physique. He is one of only three men to have defeated Arnold Schwarzenegger in competition (others: Sergio Oliva and Robby Robinson in a guest pose). Many bodybuilding purists consider his physique the most beautiful ever to grace the Olympia stage.",
+    thumb: "https://i0.wp.com/physicalculturestudy.com/wp-content/uploads/2016/02/frank-zane-young.jpg?resize=400%2C402&ssl=1",
+    photos: [
+      "https://generationiron.com/wp-content/uploads/2024/08/unnamed-11-1024x543.jpg"
     ]
   },
   {
-    "name": "Lee Haney",
-    "years": "1984 – 1991",
-    "wins": "8× Mr. Olympia",
-    "era": "Mass With Class",
-    "rivals": [
+    name: "Lee Haney",
+    years: "1984 – 1991",
+    wins: "8× Mr. Olympia",
+    era: "Mass With Class",
+    rivals: [
       "Rich Gaspari",
       "Lee Labrada",
       "Dorian Yates"
     ],
-    "physique": "Massive yet conditioned. Wide back, full legs, incredible thickness. His motto 'stimulate, don't annihilate' produced a physique that was big, full, and injury-free over 8 years.",
-    "bio": "Lee Haney broke Arnold Schwarzenegger's record with eight consecutive Olympia victories from 1984 to 1991 — a record that stood alone for over a decade. His motto was 'stimulate, don't annihilate' — a philosophy that kept him healthy and consistent throughout his reign. Haney brought a level of combination between mass and conditioning that hadn't been seen before: he was bigger than his predecessors but equally conditioned. He was the first 'mass monster' — though he would later be dwarfed by Dorian Yates and Ronnie Coleman. He is widely regarded as one of the most dignified champions in the sport's history.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Lee_Haney_1984.jpg/220px-Lee_Haney_1984.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Lee_Haney_1984.jpg/220px-Lee_Haney_1984.jpg"
+    physique: "Massive yet conditioned. Wide back, full legs, incredible thickness. His motto 'stimulate, don't annihilate' produced a physique that was big, full, and injury-free over 8 years.",
+    bio: "Lee Haney broke Arnold Schwarzenegger's record with eight consecutive Olympia victories from 1984 to 1991 — a record that stood alone for over a decade. His motto was 'stimulate, don't annihilate' — a philosophy that kept him healthy and consistent throughout his reign. Haney brought a level of combination between mass and conditioning that hadn't been seen before: he was bigger than his predecessors but equally conditioned. He was the first 'mass monster' — though he would later be dwarfed by Dorian Yates and Ronnie Coleman. He is widely regarded as one of the most dignified champions in the sport's history.",
+    thumb: "https://musclememory.com/images/recent/HaneyLee-Zeller.JPG",
+    photos: [
+      "https://cdn.muscleandstrength.com/sites/default/files/lee_haney.jpg"
     ]
   },
   {
-    "name": "Dorian Yates",
-    "years": "1992 – 1997",
-    "wins": "6× Mr. Olympia",
-    "era": "The Dark Side",
-    "rivals": [
+    name: "Dorian Yates",
+    years: "1992 – 1997",
+    wins: "6× Mr. Olympia",
+    era: "The Dark Side",
+    rivals: [
       "Lee Labrada",
       "Kevin Levrone",
       "Flex Wheeler",
       "Paul Dillett"
     ],
-    "physique": "265 lbs of granite. 'Grainy' conditioning with skin like plastic wrap over muscle. His back was described as inhuman — striations visible in every pose. Redefined what 'big' meant.",
-    "bio": "Dorian Yates — 'The Shadow' — changed bodybuilding forever. Training in near-total secrecy in his Temple Gym in Birmingham, UK, he arrived at each Olympia with a physique that seemed impossible. His conditioning was unlike anything seen before: at 265 lbs and 5'10\", his skin was so thin that individual muscle fibers were visible — what the sport began calling 'grainy' conditioning. He introduced high-intensity training (H.I.T.) to the sport, doing just 6 sets per body part with absolute maximum intensity. His back is still considered the greatest in bodybuilding history. He retired in 1997 due to accumulated injuries, having never lost the Olympia title.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dorian_Yates_1994.jpg/220px-Dorian_Yates_1994.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dorian_Yates_1994.jpg/220px-Dorian_Yates_1994.jpg"
+    physique: "265 lbs of granite. 'Grainy' conditioning with skin like plastic wrap over muscle. His back was described as inhuman — striations visible in every pose. Redefined what 'big' meant.",
+    bio: "Dorian Yates — 'The Shadow' — changed bodybuilding forever. Training in near-total secrecy in his Temple Gym in Birmingham, UK, he arrived at each Olympia with a physique that seemed impossible. His conditioning was unlike anything seen before: at 265 lbs and 5'10\", his skin was so thin that individual muscle fibers were visible — what the sport began calling 'grainy' conditioning. He introduced high-intensity training (H.I.T.) to the sport, doing just 6 sets per body part with absolute maximum intensity. His back is still considered the greatest in bodybuilding history. He retired in 1997 due to accumulated injuries, having never lost the Olympia title.",
+    thumb: "https://global.discourse-cdn.com/tnation/uploads/default/original/3X/b/7/b7e4442de289bacfe56ef96bce6d700a3b4a80ab.jpeg",
+    photos: [
+      "https://www.greatestphysiques.com/wp-content/uploads/2016/10/Lee-Labrada-main-image-cropped.jpg"
     ]
   },
   {
-    "name": "Ronnie Coleman",
-    "years": "1998 – 2005",
-    "wins": "8× Mr. Olympia",
-    "era": "The Freakiest Of All Time",
-    "rivals": [
+    name: "Ronnie Coleman",
+    years: "1998 – 2005",
+    wins: "8× Mr. Olympia",
+    era: "The Freakiest Of All Time",
+    rivals: [
       "Flex Wheeler",
       "Jay Cutler",
       "Kevin Levrone",
       "Victor Martinez"
     ],
-    "physique": "300 lbs of conditioning. The greatest combination of size and definition ever seen on a bodybuilding stage. Arms, legs, back — everything was record-breaking. The undisputed GOAT.",
-    "bio": "Ronnie Coleman — 'The King' — is widely considered the greatest bodybuilder of all time. He tied Lee Haney's record of 8 consecutive Olympia victories and did so with a physique that remains unmatched in size AND conditioning simultaneously. At 5'11\" and 300 lbs onstage, with conditioning that would win against lighter competitors, Coleman was a physical anomaly. A full-time police officer in Arlington, Texas during his early career, he trained at a 24-hour gym for free in exchange for promotional appearances. His catchphrases 'Yeah, Buddy!' and 'Lightweight, Baby!' became iconic. He retired after placing second to Jay Cutler in 2006, and has since undergone multiple back surgeries due to decades of extreme training.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ronnie_Coleman_2001.jpg/220px-Ronnie_Coleman_2001.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ronnie_Coleman_2001.jpg/220px-Ronnie_Coleman_2001.jpg",
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ronnie_Coleman_2003.jpg/200px-Ronnie_Coleman_2003.jpg"
+    physique: "300 lbs of conditioning. The greatest combination of size and definition ever seen on a bodybuilding stage. Arms, legs, back — everything was record-breaking. The undisputed GOAT.",
+    bio: "Ronnie Coleman — 'The King' — is widely considered the greatest bodybuilder of all time. He tied Lee Haney's record of 8 consecutive Olympia victories and did so with a physique that remains unmatched in size AND conditioning simultaneously. At 5'11\" and 300 lbs onstage, with conditioning that would win against lighter competitors, Coleman was a physical anomaly. A full-time police officer in Arlington, Texas during his early career, he trained at a 24-hour gym for free in exchange for promotional appearances. His catchphrases 'Yeah, Buddy!' and 'Lightweight, Baby!' became iconic. He retired after placing second to Jay Cutler in 2006, and has since undergone multiple back surgeries due to decades of extreme training.",
+    thumb: "https://gymbeam.com/blog/wp-content/uploads/2016/09/Ronnie_Coleman_8_x_Mr_Olympia_-_2009_-_5.png",
+    photos: [
+      "https://gymbeam.com/blog/wp-content/uploads/2016/09/RONNIE_COLEMAN.jpg"
     ]
   },
   {
-    "name": "Jay Cutler",
-    "years": "2006–07, 2009–10",
-    "wins": "4× Mr. Olympia",
-    "era": "The Post-Ronnie Era",
-    "rivals": [
+    name: "Jay Cutler",
+    years: "2006–07, 2009–10",
+    wins: "4× Mr. Olympia",
+    era: "The Post-Ronnie Era",
+    rivals: [
       "Ronnie Coleman",
       "Dexter Jackson",
       "Victor Martinez",
       "Phil Heath"
     ],
-    "physique": "Massive quad sweep, full and thick everywhere. Not the most aesthetic but one of the most complete packages of mass and conditioning in modern bodybuilding.",
-    "bio": "Jay Cutler dethroned the legendary Ronnie Coleman after four consecutive second-place finishes — a feat of patience and relentless improvement rarely matched in sports. He won four Olympia titles and became the first man in history to regain the title after losing it, reclaiming the Sandow from Dexter Jackson in 2009. His training ethic was considered legendary even by professional standards — training 4–5 hours a day, six days a week. His rivalry with Ronnie Coleman across multiple Olympias is considered one of the most dramatic in the sport. Cutler was known for his incredible conditioning and quad development, though critics noted he lacked the classic V-taper of earlier champions.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Jay_Cutler_2006.jpg/220px-Jay_Cutler_2006.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Jay_Cutler_2006.jpg/220px-Jay_Cutler_2006.jpg"
+    physique: "Massive quad sweep, full and thick everywhere. Not the most aesthetic but one of the most complete packages of mass and conditioning in modern bodybuilding.",
+    bio: "Jay Cutler dethroned the legendary Ronnie Coleman after four consecutive second-place finishes — a feat of patience and relentless improvement rarely matched in sports. He won four Olympia titles and became the first man in history to regain the title after losing it, reclaiming the Sandow from Dexter Jackson in 2009. His training ethic was considered legendary even by professional standards — training 4–5 hours a day, six days a week. His rivalry with Ronnie Coleman across multiple Olympias is considered one of the most dramatic in the sport. Cutler was known for his incredible conditioning and quad development, though critics noted he lacked the classic V-taper of earlier champions.",
+    thumb: "https://i.namu.wiki/i/lL9JvA0cONSo9pX6kWIeMjrfPNPp_NsSPpX2jdcXHXFNozzls0gR3JlXPKlQKgGIuh6uRcoE9A0SbbKM6SOmjBFh7QrNs-5s-BnvfNnq_riq6EpbRXXMI68K0_4bxotozU1zNJDEG7M74Lw9UJkMjw.webp",
+    photos: [
+      "https://m.media-amazon.com/images/I/61e-cD4efFL._AC_SX679_.jpg"
     ]
   },
   {
-    "name": "Dexter Jackson",
-    "years": "2008",
-    "wins": "1× Mr. Olympia",
-    "era": "The Blade",
-    "rivals": [
+    name: "Dexter Jackson",
+    years: "2008",
+    wins: "1× Mr. Olympia",
+    era: "The Blade",
+    rivals: [
       "Jay Cutler",
       "Kai Greene",
       "Branch Warren"
     ],
-    "physique": "Elite conditioning and symmetry. At 5'6\" and 230 lbs, 'The Blade' brought a perfectly conditioned, aesthetically superior package that upset the bigger Jay Cutler.",
-    "bio": "Dexter Jackson — 'The Blade' — won the 2008 Mr. Olympia in one of the sport's great upsets, dethroning Jay Cutler with superior conditioning and symmetry. One of the longest-competing professionals in the sport, Jackson was still placing in the top 5 at Olympia into his 50s. He won the Arnold Classic five times — a record. His physique was defined by extraordinary conditioning, symmetry, and a classic aesthetic that appealed to purists. While he only held the Olympia title for one year before losing it back to Cutler in 2009, his 30+ year professional career stands as one of the most remarkable in the sport's history.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dexter_Jackson_2008.jpg/220px-Dexter_Jackson_2008.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Dexter_Jackson_2008.jpg/220px-Dexter_Jackson_2008.jpg"
+    physique: "Elite conditioning and symmetry. At 5'6\" and 230 lbs, 'The Blade' brought a perfectly conditioned, aesthetically superior package that upset the bigger Jay Cutler.",
+    bio: "Dexter Jackson — 'The Blade' — won the 2008 Mr. Olympia in one of the sport's great upsets, dethroning Jay Cutler with superior conditioning and symmetry. One of the longest-competing professionals in the sport, Jackson was still placing in the top 5 at Olympia into his 50s. He won the Arnold Classic five times — a record. His physique was defined by extraordinary conditioning, symmetry, and a classic aesthetic that appealed to purists. While he only held the Olympia title for one year before losing it back to Cutler in 2009, his 30+ year professional career stands as one of the most remarkable in the sport's history.",
+    thumb: "https://www.greatestphysiques.com/wp-content/uploads/2016/11/maxresdefaultrgrgt.gif",
+    photos: [
+      "https://preview.redd.it/dexter-jackson-2008-v0-hk6mxx8a8ep01.jpg?auto=webp&s=781b6d5dfbba668758064b96253660cf6f37724f"
     ]
   },
   {
-    "name": "Phil Heath",
-    "years": "2011 – 2017",
-    "wins": "7× Mr. Olympia",
-    "era": "The Gift",
-    "rivals": [
+    name: "Phil Heath",
+    years: "2011 – 2017",
+    wins: "7× Mr. Olympia",
+    era: "The Gift",
+    rivals: [
       "Kai Greene",
       "Shawn Rhoden",
       "Dexter Jackson",
       "William Bonac"
     ],
-    "physique": "Perfect muscle insertions, a tiny waist, and the ability to arrive at 250+ lbs in extraordinary condition. His round, full muscle bellies and presentation were considered the gold standard.",
-    "bio": "Phil Heath — 'The Gift' — dominated bodybuilding for seven consecutive years with a combination of genetics, work ethic, and stage mastery that was near-impossible to beat. His muscle insertions were considered perfect — each muscle belly sat exactly where it was supposed to, creating an aesthetic that combined Golden Era proportions with modern mass. His legendary rivalry with Kai Greene, who finished second multiple times without ever taking the title, captivated the bodybuilding world for years. In 2018, Shawn Rhoden ended his streak in a decision that stunned the sport. Heath twice attempted comebacks but never reclaimed the title.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Phil_Heath_2011.jpg/220px-Phil_Heath_2011.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Phil_Heath_2011.jpg/220px-Phil_Heath_2011.jpg"
+    physique: "Perfect muscle insertions, a tiny waist, and the ability to arrive at 250+ lbs in extraordinary condition. His round, full muscle bellies and presentation were considered the gold standard.",
+    bio: "Phil Heath — 'The Gift' — dominated bodybuilding for seven consecutive years with a combination of genetics, work ethic, and stage mastery that was near-impossible to beat. His muscle insertions were considered perfect — each muscle belly sat exactly where it was supposed to, creating an aesthetic that combined Golden Era proportions with modern mass. His legendary rivalry with Kai Greene, who finished second multiple times without ever taking the title, captivated the bodybuilding world for years. In 2018, Shawn Rhoden ended his streak in a decision that stunned the sport. Heath twice attempted comebacks but never reclaimed the title.",
+    thumb: "https://www.greatestphysiques.com/wp-content/uploads/2016/12/Phil-Heath.jpg",
+    photos: [
+      "https://www.greatestphysiques.com/wp-content/uploads/2016/12/phil-heath-2.jpg"
     ]
   },
   {
-    "name": "Shawn Rhoden",
-    "years": "2018",
-    "wins": "1× Mr. Olympia",
-    "era": "End Of An Era",
-    "rivals": [
+    name: "Shawn Rhoden",
+    years: "2018",
+    wins: "1× Mr. Olympia",
+    era: "End Of An Era",
+    rivals: [
       "Phil Heath",
       "William Bonac",
       "Roelly Winklaar"
     ],
-    "physique": "Extraordinary symmetry and conditioning. A throwback to Golden Era aesthetics at modern mass. At 43, the oldest Olympia winner ever — with a waist and midsection that cut through 250 lbs.",
-    "bio": "Shawn Rhoden — 'Flexatron' — shocked the bodybuilding world in 2018 by ending Phil Heath's seven-year reign at 43 years old, becoming the oldest Mr. Olympia winner in history. His physique was a striking blend of Golden Era aesthetics and modern mass — exceptional symmetry, a dramatically small waist, and conditioning that made competitors who outweighed him look soft by comparison. Many considered it a sign that the sport was shifting back toward aesthetics over extreme mass. Rhoden's win also proved that talent, patience, and the right moment can topple even the most dominant champion.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Shawn_Rhoden_2018.jpg/220px-Shawn_Rhoden_2018.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Shawn_Rhoden_2018.jpg/220px-Shawn_Rhoden_2018.jpg"
+    physique: "Extraordinary symmetry and conditioning. A throwback to Golden Era aesthetics at modern mass. At 43, the oldest Olympia winner ever — with a waist and midsection that cut through 250 lbs.",
+    bio: "Shawn Rhoden — 'Flexatron' — shocked the bodybuilding world in 2018 by ending Phil Heath's seven-year reign at 43 years old, becoming the oldest Mr. Olympia winner in history. His physique was a striking blend of Golden Era aesthetics and modern mass — exceptional symmetry, a dramatically small waist, and conditioning that made competitors who outweighed him look soft by comparison. Many considered it a sign that the sport was shifting back toward aesthetics over extreme mass. Rhoden's win also proved that talent, patience, and the right moment can topple even the most dominant champion.",
+    thumb: "https://scontent.fsdv2-1.fna.fbcdn.net/v/t1.6435-9/106488973_1986439008157238_2821791948306514297_n.jpg?stp=dst-jpg_s565x565_tt6&_nc_cat=107&ccb=1-7&_nc_sid=7b2446&_nc_ohc=DBt5XdZ1OtoQ7kNvwGiPwuz&_nc_oc=Adq2knfx9Onu-vYwI297frhxWebNlnGGw4asuXQQxOWY4moe2n1dsrrUem4IceeZ7DiQAhc3VYHw56HI1zSYvFkz&_nc_zt=23&_nc_ht=scontent.fsdv2-1.fna&_nc_gid=rj7bl4eMPJwjnO7t4Wo3ag&_nc_ss=7f289&oh=00_Af40Lg3nHvcckIssY0SX8XzO4tu8g-muXjCgQFn_KPBcmg&oe=6A294557",
+    photos: [
+      "https://scontent.ftlv23-1.fna.fbcdn.net/v/t1.6435-9/95977380_2864962006922117_8377423497139322880_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_ohc=mrtCqHIksZ0Q7kNvwGBC4_e&_nc_oc=AdpypxBpanRoTWmC7_YngSkUpwzSvRSjW4nbeoPHU9cXzaDmTCDyPNhZC0RlZ2Rob_SRI9cgw3vx-tRi30zfHB0g&_nc_zt=23&_nc_ht=scontent.ftlv23-1.fna&_nc_gid=AcRVlZ02s1K0kaqGaFs61A&_nc_ss=7c289&oh=00_Af6GEW2R8UIgrxyZsHaVtzlTUUj41Ws-Jt5qDSJ0lSiXyw&oe=6A29491E"
     ]
   },
   {
-    "name": "Brandon Curry",
-    "years": "2019",
-    "wins": "1× Mr. Olympia",
-    "era": "The Modern Era",
-    "rivals": [
+    name: "Brandon Curry",
+    years: "2019",
+    wins: "1× Mr. Olympia",
+    era: "The Modern Era",
+    rivals: [
       "William Bonac",
       "Hadi Choopan",
       "Big Ramy"
     ],
-    "physique": "Complete package — size, conditioning, symmetry, and stage presence in perfect balance. At 5'8\" and 245 lbs, he brought an elite combination of qualities that judges found irresistible.",
-    "bio": "Brandon Curry won the 2019 Mr. Olympia with a complete package at 5'8\" and 245 lbs — size, conditioning, symmetry, and performance all at elite level. After training in Kuwait under the legendary Oxygen Gym team, his physique underwent a transformation that brought him to his first Olympia title. His win was considered a triumph of consistency and improvement — Curry had been a professional for over a decade before claiming the top prize.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Brandon_Curry_2019.jpg/220px-Brandon_Curry_2019.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Brandon_Curry_2019.jpg/220px-Brandon_Curry_2019.jpg"
+    physique: "Complete package — size, conditioning, symmetry, and stage presence in perfect balance. At 5'8\" and 245 lbs, he brought an elite combination of qualities that judges found irresistible.",
+    bio: "Brandon Curry won the 2019 Mr. Olympia with a complete package at 5'8\" and 245 lbs — size, conditioning, symmetry, and performance all at elite level. After training in Kuwait under the legendary Oxygen Gym team, his physique underwent a transformation that brought him to his first Olympia title. His win was considered a triumph of consistency and improvement — Curry had been a professional for over a decade before claiming the top prize.",
+    thumb: "https://i.namu.wiki/i/-gkgKT5UNPiT2rYQe-1dF9O6yZZdveNf3ZXwlz8u_78sgWH12lkCK53TIw0U6nrUr2cMnbaqBhScgNLiyLshIota7H6XWQWQeLVXWdDs4W_uX8i1hsQrTCT-NvT-M6xd2ffA7P5RxVbXZemMr9rv2g.webp",
+    photos: [
+      "https://scontent.fsdv2-1.fna.fbcdn.net/v/t39.30808-6/497911681_1279049567558150_2524244600979569110_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=Anns-vF-fO0Q7kNvwFxcP0o&_nc_oc=Adoa4bzBpvsfG5DUbGzXVXSf5451Wg1q7rTqqhA5BK4qyTy8Zgo_PtcQOhWYe3cpFZEiy4tOz6Z3UNlbOIY6HMHv&_nc_zt=23&_nc_ht=scontent.fsdv2-1.fna&_nc_gid=jJO5g_hTAX3F1VbGtvL-5A&_nc_ss=7c289&oh=00_Af5v5_n0cAwZxEqLaWXNwo_HLk2n23Cw0czsQefianogHQ&oe=6A07BC99"
     ]
   },
   {
-    "name": "Big Ramy",
-    "years": "2020 – 2021",
-    "wins": "2× Mr. Olympia",
-    "era": "The Egyptian Giant",
-    "rivals": [
+    name: "Big Ramy",
+    years: "2020 – 2021",
+    wins: "2× Mr. Olympia",
+    era: "The Egyptian Giant",
+    rivals: [
       "Brandon Curry",
       "Hadi Choopan",
       "William Bonac"
     ],
-    "physique": "The heaviest champion in Olympia history at ~290 lbs. Freakish size with conditioning that — at his best — was unprecedented. Arms, legs, and back that looked like they belonged on a different species.",
-    "bio": "Mamdouh 'Big Ramy' Elssbiay is the heaviest Mr. Olympia champion in history, stepping onstage at approximately 290 lbs during his victories in 2020 and 2021. The Egyptian giant had been a fan favorite for years before finally realizing his potential under a new coaching team. His sheer mass was unlike anything in the modern era — arms and legs that defied belief at conditioning levels that made his size credible on the judging table. His 2020 win after years of near-misses was celebrated as one of the most anticipated Olympia victories in recent history.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Big_Ramy_2020.jpg/220px-Big_Ramy_2020.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Big_Ramy_2020.jpg/220px-Big_Ramy_2020.jpg"
+    physique: "The heaviest champion in Olympia history at ~290 lbs. Freakish size with conditioning that — at his best — was unprecedented. Arms, legs, and back that looked like they belonged on a different species.",
+    bio: "Mamdouh 'Big Ramy' Elssbiay is the heaviest Mr. Olympia champion in history, stepping onstage at approximately 290 lbs during his victories in 2020 and 2021. The Egyptian giant had been a fan favorite for years before finally realizing his potential under a new coaching team. His sheer mass was unlike anything in the modern era — arms and legs that defied belief at conditioning levels that made his size credible on the judging table. His 2020 win after years of near-misses was celebrated as one of the most anticipated Olympia victories in recent history.",
+    thumb: "https://preview.redd.it/big-ramy-2014-new-york-pro-probably-the-best-conditioning-v0-r8blrcnlnm821.jpg?auto=webp&s=b016a8edc9a64d120f6065961e1f813872dfaa68",
+    photos: [
+      "https://preview.redd.it/big-ramy-mr-olympia-2021-v0-hwwjllgfqjs71.jpg?auto=webp&s=f466d62d4c6f389337eb0cbe890f0deda0a7ebd5"
     ]
   },
   {
-    "name": "Hadi Choopan",
-    "years": "2022",
-    "wins": "1× Mr. Olympia",
-    "era": "The Persian Wolf",
-    "rivals": [
+    name: "Hadi Choopan",
+    years: "2022",
+    wins: "1× Mr. Olympia",
+    era: "The Persian Wolf",
+    rivals: [
       "Big Ramy",
       "Derek Lunsford",
       "Nick Walker"
     ],
-    "physique": "At 5'7\" and 230 lbs, arguably the best pound-for-pound physique in professional bodybuilding. Conditioning beyond elite, with striated glutes and a waist that made him look carved from stone.",
-    "bio": "Hadi Choopan — 'The Persian Wolf' — is considered by many to have the best pound-for-pound conditioning in professional bodybuilding history. An Iranian competitor who faced significant obstacles competing internationally due to visa restrictions, his persistence was rewarded with the 2022 Mr. Olympia title. At 5'7\" and 230 lbs, his conditioning was extraordinary — shredded beyond what most competitors could achieve while maintaining his muscle mass. His victory was celebrated as a triumph of athletic ability and determination against considerable personal and logistical challenges.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Hadi_Choopan_2022.jpg/220px-Hadi_Choopan_2022.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Hadi_Choopan_2022.jpg/220px-Hadi_Choopan_2022.jpg"
+    physique: "At 5'7\" and 230 lbs, arguably the best pound-for-pound physique in professional bodybuilding. Conditioning beyond elite, with striated glutes and a waist that made him look carved from stone.",
+    bio: "Hadi Choopan — 'The Persian Wolf' — is considered by many to have the best pound-for-pound conditioning in professional bodybuilding history. An Iranian competitor who faced significant obstacles competing internationally due to visa restrictions, his persistence was rewarded with the 2022 Mr. Olympia title. At 5'7\" and 230 lbs, his conditioning was extraordinary — shredded beyond what most competitors could achieve while maintaining his muscle mass. His victory was celebrated as a triumph of athletic ability and determination against considerable personal and logistical challenges.",
+    thumb: "https://www.greatestphysiques.com/wp-content/uploads/2017/05/Hadi-Choopan.01.jpg",
+    photos: [
+      "https://preview.redd.it/hadi-choopan-wins-the-2019-vancouver-pro-show-unbelievably-v0-tllaa63rzha31.jpg?auto=webp&s=38d65c51682cc45ddb3de2c5d65ef841a0fa54db"
     ]
   },
   {
-    "name": "Derek Lunsford",
-    "years": "2023 – 2024",
-    "wins": "2× Mr. Olympia",
-    "era": "Today's Champion",
-    "rivals": [
+    name: "Derek Lunsford",
+    years: "2023 – 2024",
+    wins: "2× Mr. Olympia",
+    era: "Today's Champion",
+    rivals: [
       "Hadi Choopan",
       "Nick Walker",
       "Samson Dauda",
       "Andrew Jacked"
     ],
-    "physique": "Modern blend of mass and aesthetics. Full muscle bellies, a classic taper, and conditioning that honors both the Golden Era and the modern sport simultaneously.",
-    "bio": "Derek Lunsford is the reigning Mr. Olympia champion, having won consecutive titles in 2023 and 2024. He made a bold move from the 212 division (where he was also dominant) to the Open division, immediately competing at the highest level. Many consider Lunsford the most complete package in modern bodybuilding — he brings elite conditioning, full muscle bellies, strong aesthetics, and impressive stage presence. His wins represent a possible shift back toward a balance between extreme mass and classical proportions. At his age, he could define the next era of the Mr. Olympia.",
-    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Derek_Lunsford_2023.jpg/220px-Derek_Lunsford_2023.jpg",
-    "photos": [
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Derek_Lunsford_2023.jpg/220px-Derek_Lunsford_2023.jpg"
+    physique: "Modern blend of mass and aesthetics. Full muscle bellies, a classic taper, and conditioning that honors both the Golden Era and the modern sport simultaneously.",
+    bio: "Derek Lunsford is the reigning Mr. Olympia champion, having won consecutive titles in 2023 and 2024. He made a bold move from the 212 division (where he was also dominant) to the Open division, immediately competing at the highest level. Many consider Lunsford the most complete package in modern bodybuilding — he brings elite conditioning, full muscle bellies, strong aesthetics, and impressive stage presence. His wins represent a possible shift back toward a balance between extreme mass and classical proportions. At his age, he could define the next era of the Mr. Olympia.",
+    thumb: "https://www.greatestphysiques.com/wp-content/uploads/2017/11/Derek-Lunsford.01.jpg",
+    photos: [
+      "https://external-preview.redd.it/derek-lunsford-looking-absolutely-top-3-at-this-years-v0-4ZeuEpvxE_vSNGmOXV5cO31k4y8T4Ow6Be87YgoRE-s.jpg?auto=webp&s=be8ac74b5c3e8124afa5498f7d2752a915ae848e   "
     ]
   }
 ]
